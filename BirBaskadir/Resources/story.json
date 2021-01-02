@@ -1,0 +1,85 @@
+{ "pages":
+    [
+        {
+            "id": "0",
+            "content": [
+                {
+                    "type": "title",
+                    "description": "Bir Baskadir"
+                },
+                {
+                    "type": "image",
+                    "description": "story0"
+                },
+                {
+                    "type": "body",
+                    "description": "Some body"
+                }
+            ],
+            "options": [
+                {
+                    "text": "Good option.",
+                    "linked_story_id": "1"
+                },
+                {
+                    "text": "Bad option.",
+                    "linked_story_id": "2"
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "content": [
+                {
+                    "type": "title",
+                    "description": "Title of good option."
+                },
+                {
+                    "type": "image",
+                    "description": "story1"
+                },
+                {
+                    "type": "body",
+                    "description": "Story of the good option."
+                }
+            ],
+            "options": [
+                {
+                    "text": "Add more things in story.json.",
+                    "linked_story_id": "3"
+                },
+                {
+                    "text": "Go to start.",
+                    "linked_story_id": "0"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "content": [
+                {
+                    "type": "title",
+                    "description": "Title of bad option."
+                },
+                {
+                    "type": "image",
+                    "description": "story2"
+                },
+                {
+                    "type": "body",
+                    "description": "Story of the bad option."
+                }
+            ],
+            "options": [
+                {
+                    "text": "Go back.",
+                    "linked_story_id": "back"
+                },
+                {
+                    "text": "Go to start.",
+                    "linked_story_id": "0"
+                }
+            ]
+        }
+    ]
+}
